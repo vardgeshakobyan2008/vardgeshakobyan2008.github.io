@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(https://www.ixbt.com/img/n1/news/2021/10/2/5753804_P90445511-lowRes_0_large.jpg);
+    background-size: 100vw 100vh;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+.logo img{
+    width: 80px;
+    margin-top: 10px;
+    border: 3px solid cyan;
+    border-radius: 50%;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+}
+
+.items ul{
+    display: flex;
+    list-style: none;
+}
+
+.items ul li{
+    color: #fff;
+    margin-right: 16px;
+    font-size: 22px;
+}
+
+.items ul li:hover{
+    color: cyan;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+#active{
+    color: cyan;
+    font-weight: 600;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+}
+
+.btn button{
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #111;
+    background-color: cyan;
+    outline: none;
+    border: none;
+    clip-path: polygon(12% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 45%);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.btn button:hover{
+    color: rgb(104, 185, 223);
+    border: 2px solid rgb(104, 185, 223);
+    background-color: transparent;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+    margin-left: 5vw;
+}
+
+.c-1{
+    margin-bottom: 20px;
+}
+
+.c-1 h1{
+    color: #fff;
+    font-size: 56px;
+}
+
+.c-1 h1 span{
+    color: cyan;
+}
+
+.c-2 p{
+    color: lightgray;
+    letter-spacing: 2px;
+}
+
+.c-3{
+    margin-top: 100px;
+}
+
+.c-3 button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: #111;
+    background-color: cyan;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.c-3 button:hover{
+    color: rgb(104, 185, 223);
+    background-color: transparent;
+    border: 2px solid rgb(104, 185, 223);
+
+}
+
+
+a{
+    text-decoration: none;
+    color: #111;
+}
+
+a:hover{
+    color: rgb(104, 185, 223);
+}
